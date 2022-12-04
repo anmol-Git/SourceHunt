@@ -87,16 +87,16 @@ class _BottomNavState extends State<BottomNav> {
             child: AnnotatedRegion<SystemUiOverlayStyle>(
           value: const SystemUiOverlayStyle(
             statusBarColor: Colors.transparent,
-            statusBarIconBrightness: Brightness.light,
+            statusBarIconBrightness: Brightness.dark,
           ),
           child: Material(
-            color: Colors.white,
+            color: const Color(0xff11141D),
             elevation: 0,
             child: Stack(
               children: [
                 Container(
                   width: double.infinity,
-                  color: Styles.primaryBackgroundColor,
+                  color: const Color(0xff11141D),
                 ),
                 Column(
                   // physics: const NeverScrollableScrollPhysics(),
@@ -104,7 +104,7 @@ class _BottomNavState extends State<BottomNav> {
                   children: <Widget>[
                     Material(
                       elevation: 3,
-                      shadowColor: Colors.black45,
+                      shadowColor: const Color(0xff11141D),
                       child: Container(
                           // color: Styles.whiteColor,
                           padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -120,7 +120,7 @@ class _BottomNavState extends State<BottomNav> {
                     Expanded(
                       child: Container(
                         padding: const EdgeInsets.fromLTRB(16, 18, 16, 0),
-                        width: double.infinity,
+                        width: MediaQuery.of(context).size.width,
                         child: Observer(builder: (_) {
                           print(
                               'DISPLAY PAGE =${ReefAppState.instance.navigation.currentPage}');
@@ -137,18 +137,18 @@ class _BottomNavState extends State<BottomNav> {
         )),
         bottomNavigationBar: Observer(
             builder: (_) => BottomNavigationBar(
-                  backgroundColor: Styles.whiteColor,
-                  showSelectedLabels: false,
+                  backgroundColor: Color.fromARGB(255, 18, 18, 18),
+                  showSelectedLabels: true,
                   showUnselectedLabels: false,
                   selectedLabelStyle:
-                      TextStyle(fontSize: 20, color: Styles.primaryColor),
+                      TextStyle(fontSize: 14, color: Styles.primaryColor),
                   type: BottomNavigationBarType.fixed,
                   selectedItemColor:
                       ReefAppState.instance.navigation.currentPage.index <
                               bottomNavigationBarItems.length
                           ? Styles.purpleColor
-                          : Colors.black38,
-                  unselectedItemColor: Colors.black38,
+                          : Colors.white,
+                  unselectedItemColor: Colors.white,
                   items: bottomNavigationBarItems,
                   currentIndex:
                       ReefAppState.instance.navigation.currentPage.index <
