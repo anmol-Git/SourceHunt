@@ -24,6 +24,11 @@ We are building a platform like ProductHunt named "SourceHunt" for the open-sour
 ### Source Code: [here](https://github.com/Abhijay007/Source-hunt)
 ### FIgma Design: [here](https://www.figma.com/file/C7AGOBZAA4RW4F1KnUKnwr/Source-Hunt?node-id=0%3A1&t=veCvwy5GYCy7zEEl-1)
 ### Notion Docs: [here](https://www.notion.so/Source-Hunt-490cb8ef4e964d78beb07c3915a895b6)
+
+#Flutter Application
+Reef Protocol uses Web View to render the application on the flutter framework and flutter web application currenlty do not support web View hence we are keeping the mobile application version ready for this demo and will migrate to the web application once the support is available
+The mobile application supports the wallet integration with the application can now fetch the data through the javascript RPC api and a flutter repository to expose all the function. The application offers a functionality to the interact with different open source organisation. The application does it state management through MOBX and following the best practice to improve the performace and increase the efficiency of the project. The idea is to reward the developers REEF token and building the ecosystem for the REEF community for the REEF protocol itself.  The application is deployed on the StackOS and uses the Router for the payments methods.
+
 ### Date of starting the project : 26 November, 2022
 
 
