@@ -25,6 +25,9 @@ We are building a platform like ProductHunt named "SourceHunt" for the open-sour
 ![Jobs (1)](https://user-images.githubusercontent.com/64387054/205486937-574f78ee-ef90-4afe-b107-9b99209302e0.png)
 
 
+## Dockerfile and StackOS
+ We have a working Dockerfile for the project and also is uploaded on StackOS. StackOS gives decentralized cloud services for Web3. Then we deployed it on StackOS and uses the Router for the payments methods.
+
 ### Live Demo: [here]()
 ### Source Code: [here](https://github.com/Abhijay007/Source-hunt)
 ### FIgma Design: [here](https://www.figma.com/file/C7AGOBZAA4RW4F1KnUKnwr/Source-Hunt?node-id=0%3A1&t=veCvwy5GYCy7zEEl-1)
