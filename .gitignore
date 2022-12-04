@@ -1,0 +1,60 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+*.code-workspace
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+/lib/js_api/node_modules/
+/lib/js/node_modules/
+/lib/js/packages/dApp_js/node_modules/
+/lib/js/packages/dApp_js/node_modules/.bin/
+/lib/js/packages/flutter-js-bridge/node_modules/.bin/
+/lib/js/packages/flutter-js-bridge/node_modules/
+/lib/js/packages/reef-mobile-js/node_modules/.bin/
+/lib/js/packages/reef-mobile-js/node_modules/
+/lib/js/packages/dApp-js/node_modules/.bin/esbuild
+/lib/js/packages/dApp-js/node_modules/.bin/esbuild.cmd
+/lib/js/packages/dApp-test-html-js/node_modules/.bin/esbuild.cmd

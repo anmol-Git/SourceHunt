@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "crypto": [
+        "../../node_modules/crypto-browserify"
+      ],
+      "@reef-defi/extension-inject": [
+        "../../node_modules/@reef-defi/extension-inject"
+      ]
+    },
+    "lib": [
+      "dom",
+      "es6",
+      "scripthost",
+      "es2015.promise"
+    ]
+  }
+}
