@@ -31,10 +31,29 @@ We are building a platform like ProductHunt named "SourceHunt" for the open-sour
 ### Notion Docs: [here](https://www.notion.so/Source-Hunt-490cb8ef4e964d78beb07c3915a895b6)
 
 #Flutter Application
+
 Reef Protocol uses Web View to render the application on the flutter framework and flutter web application currenlty do not support web View hence we are keeping the mobile application version ready for this demo and will migrate to the web application once the support is available
 The mobile application supports the wallet integration with the application can now fetch the data through the javascript RPC api and a flutter repository to expose all the function. The application offers a functionality to the interact with different open source organisation. The application does it state management through MOBX and following the best practice to improve the performace and increase the efficiency of the project. The idea is to reward the developers REEF token and building the ecosystem for the REEF community for the REEF protocol itself.  The application is deployed on the StackOS and uses the Router for the payments methods.
 
+
+Home screen          |  Connect wallet screen            
+:-------------------------:|:-------------------------:|
+![1](https://user-images.githubusercontent.com/64387054/205487533-177aedc9-5e0b-43dc-beb1-89c91fc45485.jpeg)|![2](https://user-images.githubusercontent.com/64387054/205487540-d238358e-1bb3-438c-aed0-47deaa06a19d.jpeg)
+
+
+Create new wallet          |  Registration         
+:-------------------------:|:-------------------------:|
+![3](https://user-images.githubusercontent.com/64387054/205487584-5d7da492-47ab-406c-98e2-4136bb585e4f.jpeg)|![4](https://user-images.githubusercontent.com/64387054/205487590-4de26677-eb67-45a2-9c05-3e2e9b6f9586.jpeg)
+
+
+
+Import account         |  Delete account            
+:-------------------------:|:-------------------------:|
+![5](https://user-images.githubusercontent.com/64387054/205487683-9783c2a5-4096-482b-97ae-8e975084b6dd.jpeg)|![6](https://user-images.githubusercontent.com/64387054/205487699-fac93505-4460-4081-bf71-7b8340dca2a2.jpeg)
+
+
 ### Date of starting the project : 26 November, 2022
+
 
 
 # Project Buildooors 💻
