@@ -25,8 +25,17 @@ We are building a platform like ProductHunt named "SourceHunt" for the open-sour
 ![Jobs (1)](https://user-images.githubusercontent.com/64387054/205486937-574f78ee-ef90-4afe-b107-9b99209302e0.png)
 
 
+## Live Video Demo
+
+<div align="center">
+
+[![Project Demo](https://cdn.loom.com/sessions/thumbnails/c8b3df6c7e5144a9a2f09359fd7480d6-with-play.gif)](https://www.loom.com/embed/c8b3df6c7e5144a9a2f09359fd7480d6 "Video Title")
+
+</div>
+
 ## Dockerfile and StackOS
- Docker helps to simplify and accelerate the development workflow, while offering the freedom to choose any tool and maintain different development environments for each project. We have a working Dockerfile for the project and also is uploaded on StackOS. The dockerfile wraps the flutter application StackOS gives decentralized cloud services for Web3. Then we deployed it on StackOS and uses the Router for the payments methods.
+
+Docker helps to simplify and accelerate the development workflow, while offering the freedom to choose any tool and maintain different development environments for each project. We have a working Dockerfile for the project and also is uploaded on StackOS. The dockerfile wraps the flutter application StackOS gives decentralized cloud services for Web3. Then we deployed it on StackOS and uses the Router for the payments methods.
 
 
 # Important links  
