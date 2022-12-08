@@ -9,7 +9,7 @@ Js libraries are used for interaction with the chain inside "lib/js/packages/ree
 
 Mobx is used for Flutter state management. If updating its classes run "flutter pub run build_runner watch"
 
-# [SourceHunt]() - A Reef hackathon Project
+# [SourceHunt](https://github.com/anmol-Git/reef_hackathon_project) - A Reef hackathon Project
 
 ![Purple Futuristic Metaverse Presentation](https://user-images.githubusercontent.com/64387054/204603843-471a837a-003c-4586-9abd-dde4f0fdf991.png)
 
@@ -32,7 +32,7 @@ We are building a platform like ProductHunt named "SourceHunt" for the open-sour
 # Important links  
 
 
-### Live Demo: [here]()
+### Live Demo: [here](https://www.loom.com/share/c8b3df6c7e5144a9a2f09359fd7480d6)
 ### Source Code: [here](https://github.com/Abhijay007/Source-hunt)
 ### FIgma Design: [here](https://www.figma.com/file/C7AGOBZAA4RW4F1KnUKnwr/Source-Hunt?node-id=0%3A1&t=veCvwy5GYCy7zEEl-1)
 ### Notion Docs: [here](https://www.notion.so/Source-Hunt-490cb8ef4e964d78beb07c3915a895b6)
